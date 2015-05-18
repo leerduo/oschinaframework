@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/menu_item_quests"
+        style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:background="@drawable/drawer_menu_icon_quest" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:gravity="center"
+            android:text="技术问答" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d2d2d2" />
+
+
+    <LinearLayout
+        android:id="@+id/menu_item_opensoft"
+        style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:background="@drawable/drawer_menu_icon_opensoft" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:gravity="center"
+            android:text="开源软件" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d2d2d2" />
+
+
+    <LinearLayout
+        android:id="@+id/menu_item_blog"
+        style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:background="@drawable/drawer_menu_icon_blog" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:gravity="center"
+            android:text="博客区" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d2d2d2" />
+
+    <LinearLayout
+        android:id="@+id/menu_item_gitapp"
+        style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:background="@drawable/drawer_menu_icon_gitapp" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:gravity="center"
+            android:text="Git客户端" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d2d2d2" />
+
+
+    <LinearLayout
+        android:id="@+id/menu_item_rss"
+        style="@style/MenuItemLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:background="@drawable/drawer_menu_icon_rss" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:gravity="center"
+            android:text="订阅" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d2d2d2" />
+
+
+</LinearLayout>
