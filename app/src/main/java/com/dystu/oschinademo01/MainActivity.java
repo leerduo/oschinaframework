@@ -40,7 +40,10 @@ public class MainActivity extends ActionBarActivity implements TabHost.OnTabChan
     }
 
     private void showQuickOption() {
-
+        final QuickOptionalDialog dialog = new QuickOptionalDialog(MainActivity.this);
+        dialog.setCancelable(true);
+        dialog.setCanceledOnTouchOutside(true);
+        dialog.show();
     }
 
     private void initTabs() {
